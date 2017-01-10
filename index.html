@@ -19,9 +19,11 @@
    			if (longueur >200){
    				alert("Valeur trop élévée !")
    			}
-   			else for (i = 1; i <= longueur; i++){ 
+   			else for (i = 1; i <= longueur; i++)
+   				if (i%2 == 0){ 
    		    document.write('<p>'+i+'</p>'); 
    			} 
+   			else document.write('<d>'+i+'</d>');
 		</script> 
 	</tr>
 
