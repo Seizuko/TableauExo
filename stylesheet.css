@@ -123,6 +123,8 @@ p:hover{
 h1{
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
+  color: lightgreen;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 
@@ -136,10 +138,12 @@ a{
   border-radius: 50px;
   text-decoration: none;
   transition-duration: .5s;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 a:hover{
-  text-shadow: 5px 5px 15px black;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px, 5px 5px 15px black;
   box-shadow: 5px 5px 15px black;
   transform: scale(1.2);
+  color: grey;
 }
