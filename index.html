@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 ​<body>
   <header><h1> Voici votre tableau !</h1></header>
@@ -13,7 +14,11 @@
 		<script type="text/javascript"> 
    			var tableau = new Array();
    			longueur = prompt("saississez un nombre")
-   			for (i = 1; i <= longueur; i++){ 
+
+   			if (longueur >200){
+   				alert("Valeur trop élévée !")
+   			}
+   			else for (i = 1; i <= longueur; i++){ 
    		    document.write('<p>'+i+'</p>'); 
    			} 
 		</script> 
@@ -27,6 +32,6 @@
 
 
 <script type="text/javascript" src="javascript.js"></script>
-  <footer></footer>
+  <footer><h1>Fin ! :D</h1></footer>
 </body>
 </html>
