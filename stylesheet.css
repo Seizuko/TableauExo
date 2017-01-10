@@ -1,4 +1,4 @@
-/* Layout */
+/* Layout responsive */
 
 * {
   box-sizing: border-box; /* pour maîtriser width et flex-basis */
@@ -97,7 +97,7 @@ footer {
   text-align: center;
 }
 
-
+/*  PARTIE TABLEAU BRICOLE */
 
 p{
   border: 2px solid black;
@@ -134,7 +134,7 @@ a{
   font-family: 'Dancing Script', cursive;
   font-size: 40px;
   color: white;
-  border:5px solid grey;
+  border:2px solid grey;
   border-radius: 50px;
   text-decoration: none;
   transition-duration: .5s;
