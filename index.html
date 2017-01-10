@@ -5,25 +5,28 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 ​<body>
-  <header>header</header>
+  <header><h1> Voici votre tableau !</h1></header>
 
   <div class="wrapper">
-    <article><script type="text/javascript"><?php
-echo '<select name="liste">';
-for($i=1; $i<=31; $i++){
-     echo '<option value="'.$i.'">'.$i.'</option>';
-}
-echo '</select>';
-?></script></article>
+    <article>
+    <tr>
+		<script type="text/javascript"> 
+   			var tableau = new Array();
+   			longueur = prompt("saississez un nombre")
+   			for (i = 1; i <= longueur; i++){ 
+   		    document.write('<p>'+i+'</p>'); 
+   			} 
+		</script> 
+	</tr>
 
+    </article>
 
-
-
-
-    <nav>navigation</nav>
-    <aside>aside</aside>
+    <!-- <nav></nav>
+    <aside></aside> -->
   </div> <!-- /wrapper -->
 
-  <footer>footer</footer>
+
+<script type="text/javascript" src="javascript.js"></script>
+  <footer></footer>
 </body>
 </html>
